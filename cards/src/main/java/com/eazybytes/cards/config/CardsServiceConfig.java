@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.eazybytes.loans.config;
+package com.eazybytes.cards.config;
 
 import java.util.List;
 import java.util.Map;
@@ -15,9 +15,9 @@ import lombok.ToString;
 
 
 @Configuration
-@ConfigurationProperties(prefix = "loans")
+@ConfigurationProperties(prefix = "cards")
 @Getter @Setter @ToString
-public class LoansServiceConfig {
+public class CardsServiceConfig {
 
 	 private String msg;
 	 private String buildVersion;

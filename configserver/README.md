@@ -1,0 +1,2 @@
+# Spring_Boot_Microservices_and_Cloud_config_AV
+Central repository configurations for Spring_Boot_Microservices
