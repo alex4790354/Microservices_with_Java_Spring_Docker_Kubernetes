@@ -10,8 +10,8 @@ import org.springframework.context.annotation.ComponentScans;
 import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 
 @SpringBootApplication
-/*@RefreshScope
-@ComponentScans({ @ComponentScan("com.eazybytes.accounts.controller")})
+@RefreshScope
+/*@ComponentScans({ @ComponentScan("com.eazybytes.accounts.controller")})
 @EnableJpaRepositories("com.eazybytes.accounts.repository")
 @EntityScan("com.eazybytes.accounts.model")*/
 public class AccountsApplication {
