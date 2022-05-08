@@ -3,4 +3,4 @@ Account service for Spring_Boot_Microservices
 
 
 #to build Docker image: from project-root directory:  
-docker build . -t eazybytes/loans
+docker build . -t eazybytes/loans -Dmaven.test.skip=true
